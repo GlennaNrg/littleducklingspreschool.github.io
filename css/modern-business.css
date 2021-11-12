@@ -1,0 +1,66 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template/modern-business)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+  /* background-image: url("backgroundimage.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position:50% 50%;
+  image-rendering: -webkit-optimize-contrast;*/
+
+ /* Good Code for the background*/
+    background: url("image7.jpeg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  /*background: url("backgroundimage.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;*/
+}
+
+.my-4 {
+ background-color: white;
+ }
+ 
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.slidetext{
+	color: white;
+  background-size: 60px 100px;
+  background-color: #4F9F64;
+  background-color: hsla(89, 43%, 51%, 0.6);
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.card-body {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: stretch;
+  flex-basis: 10em;
+  justify-content:space-around;
+  align-content: stretch;
+}
+.card-body{
+  transition:all 0.5s;
+}
+.card-body:hover {
+  transform: scale(1.1);
+}
